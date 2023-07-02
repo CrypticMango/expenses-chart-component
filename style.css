@@ -20,7 +20,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
-	font-family: 'DM Sans', sans-serif;
+	font-family: "DM Sans", sans-serif;
 	background-color: var(--cream);
 }
 
@@ -37,11 +37,12 @@ h1 {
 h2 {
 	color: var(--dark-brown);
 	font-weight: 700;
-	margin-bottom: 30px;
+	margin-bottom: 70px;
 	font-size: 24px;
 }
 
-h3, .last-month {
+h3,
+.last-month {
 	color: var(--medium-brown);
 	font-weight: 400;
 	font-size: 15px;
@@ -61,6 +62,7 @@ hr {
 	width: 290px;
 	margin-bottom: 20px;
 	color: var(--cream);
+	margin-top: 50px;
 }
 
 .top img {
@@ -83,8 +85,50 @@ hr {
 
 .days-of-week {
 	display: flex;
-	align-items: center;
+	align-items: baseline;
 	justify-content: space-between;
+}
+
+.bar-mon,
+.bar-tue,
+.bar-wed,
+.bar-thu,
+.bar-fri,
+.bar-sat,
+.bar-sun {
+	background-color: var(--soft-red);
+	border-radius: 4px;
+	width: 36px;
+	margin-bottom: 5px;
+}
+
+.bar-mon {
+	height: 50px;
+}
+
+.bar-tue {
+	height: 100px;
+}
+
+.bar-wed {
+	height: 120px;
+	background-color: var(--cyan);
+}
+
+.bar-thu {
+	height: 90px;
+}
+
+.bar-fri {
+	height: 70px;
+}
+
+.bar-sat {
+	height: 110px;
+}
+
+.bar-sun {
+	height: 80px;
 }
 
 .bottom-total {
@@ -94,7 +138,8 @@ hr {
 	justify-content: space-between;
 }
 
-.month-total, .month-percent {
+.month-total,
+.month-percent {
 	color: var(--dark-brown);
 	font-weight: 700;
 }
