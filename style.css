@@ -20,6 +20,12 @@ body {
 	align-items: center;
 	justify-content: center;
 	min-height: 100vh;
+	font-family: 'DM Sans', sans-serif;
+}
+
+footer {
+	margin: 30px;
+	text-align: center;
 }
 
 .attribution {
@@ -28,4 +34,14 @@ body {
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
+}
+
+.fa-github-alt {
+	margin: 30px;
+	font-size: 30px;
+	color: var(--soft-red);
+}
+
+.fa-github-alt:hover {
+	cursor: pointer;
 }
