@@ -81,6 +81,12 @@ hr {
 	padding: 15px;
 }
 
+.days-of-week {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
 .bottom-total {
 	display: flex;
 	flex-direction: row;
