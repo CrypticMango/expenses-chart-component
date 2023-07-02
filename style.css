@@ -38,11 +38,18 @@ h2 {
 	color: var(--dark-brown);
 	font-weight: 700;
 	margin-bottom: 30px;
+	font-size: 24px;
 }
 
 h3, .last-month {
 	color: var(--medium-brown);
 	font-weight: 400;
+	font-size: 15px;
+}
+
+hr {
+	border: 1px solid var(--cream);
+	margin: 20px 0px;
 }
 
 .top {
@@ -76,11 +83,28 @@ h3, .last-month {
 
 .bottom-total {
 	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .month-total, .month-percent {
 	color: var(--dark-brown);
 	font-weight: 700;
+}
+
+.month-percent {
+	position: relative;
+	left: 58px;
+}
+
+.month-total {
+	font-size: 29px;
+}
+
+.percent {
+	position: relative;
+	top: 6px;
 }
 
 .attribution {
