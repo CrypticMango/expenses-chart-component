@@ -21,11 +21,66 @@ body {
 	justify-content: center;
 	min-height: 100vh;
 	font-family: 'DM Sans', sans-serif;
+	background-color: var(--cream);
 }
 
 footer {
 	margin: 30px;
 	text-align: center;
+}
+
+h1 {
+	font-size: 18px;
+	font-weight: 400;
+}
+
+h2 {
+	color: var(--dark-brown);
+	font-weight: 700;
+	margin-bottom: 30px;
+}
+
+h3, .last-month {
+	color: var(--medium-brown);
+	font-weight: 400;
+}
+
+.top {
+	background-color: var(--soft-red);
+	display: flex;
+	flex-direction: row;
+	border-radius: 7px;
+	padding: 25px;
+	width: 290px;
+	margin-bottom: 20px;
+	color: var(--cream);
+}
+
+.top img {
+	margin-left: 110px;
+	position: relative;
+	left: 10px;
+	top: 5px;
+}
+
+.top p {
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.bottom {
+	background-color: var(--very-pale-orange);
+	border-radius: 7px;
+	padding: 15px;
+}
+
+.bottom-total {
+	display: flex;
+}
+
+.month-total, .month-percent {
+	color: var(--dark-brown);
+	font-weight: 700;
 }
 
 .attribution {
