@@ -102,6 +102,16 @@ hr {
 	margin-bottom: 5px;
 }
 
+.bar-mon,
+.bar-tue,
+.bar-wed,
+.bar-thu,
+.bar-fri,
+.bar-sat,
+.bar-sun:hover {
+	cursor: pointer;
+}
+
 .bar-mon {
 	height: 50px;
 }
@@ -156,6 +166,10 @@ hr {
 .percent {
 	position: relative;
 	top: 6px;
+}
+
+.amount-spent {
+	display: none;
 }
 
 .attribution {
