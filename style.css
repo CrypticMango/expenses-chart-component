@@ -172,10 +172,16 @@ hr {
 	display: none;
 	color: var(--cream);
 	background-color: var(--dark-brown);
-	font-size: 13px;
+	font-size: 12px;
 	border-radius: 2px;
 	height: 20px;
 	width: 45px;
+	text-align: center;
+}
+
+#monday {
+	position: relative;
+	top: -100px;
 }
 
 .attribution {
