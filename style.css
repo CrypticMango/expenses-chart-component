@@ -170,6 +170,12 @@ hr {
 
 .amount-spent {
 	display: none;
+	color: var(--cream);
+	background-color: var(--dark-brown);
+	font-size: 13px;
+	border-radius: 2px;
+	height: 20px;
+	width: 45px;
 }
 
 .attribution {
