@@ -12,6 +12,10 @@
 	--very-pale-orange: hsl(33, 100%, 98%);
 }
 
+main {
+	margin: 0 auto;
+}
+
 body {
 	font-size: 18px;
 	margin: 0 auto;
@@ -57,7 +61,7 @@ hr {
 	background-color: var(--soft-red);
 	display: flex;
 	flex-direction: row;
-	border-radius: 7px;
+	border-radius: 12px;
 	padding: 25px;
 	width: 290px;
 	margin-bottom: 20px;
@@ -79,7 +83,7 @@ hr {
 
 .bottom {
 	background-color: var(--very-pale-orange);
-	border-radius: 7px;
+	border-radius: 12px;
 	padding: 15px;
 }
 
@@ -172,16 +176,54 @@ hr {
 	display: none;
 	color: var(--cream);
 	background-color: var(--dark-brown);
-	font-size: 12px;
-	border-radius: 2px;
+	font-size: 14px;
+	border-radius: 4px;
 	height: 20px;
 	width: 45px;
 	text-align: center;
+	padding: 5px;
 }
 
 #monday {
-	position: relative;
-	top: -100px;
+	position: absolute;
+	top: 470px;
+	left: 710px;
+}
+
+#tuesday {
+	position: absolute;
+	top: 420px;
+	left: 765px;
+}
+
+#wednesday {
+	position: absolute;
+	top: 370px;
+	left: 818px;
+}
+
+#thursday {
+	position: absolute;
+	top: 430px;
+	left: 873px;
+}
+
+#friday {
+	position: absolute;
+	top: 450px;
+	left: 925px;
+}
+
+#saturday {
+	position: absolute;
+	top: 400px;
+	left: 980px;
+}
+
+#sunday {
+	position: absolute;
+	top: 440px;
+	left: 1035px;
 }
 
 .attribution {
@@ -200,4 +242,19 @@ hr {
 
 .fa-github-alt:hover {
 	cursor: pointer;
+}
+
+@media (min-width:1440px) {
+	.top {
+		width: 370px;
+	}
+	
+	.top img {
+		margin-left: 180px;
+	}
+
+	.bottom {
+		width: 360px;
+		padding: 30px;
+	}
 }
