@@ -116,6 +116,14 @@ hr {
 	cursor: pointer;
 }
 
+.red:hover {
+	background-color: hsl(10, 72%, 72%);
+}
+
+.cyan:hover {
+	background-color: hsl(184, 32%, 66%);
+}
+
 .bar-mon {
 	height: 50px;
 }
